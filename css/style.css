@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.botaom {
+    background-color: #00AEEF;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.botaom a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #00AEEF;
+}
+
+.botaoi {
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #00AEEF;
+}
+
+.botaoi a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #00AEEF;
+}
+
+body {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: #0D1B2A;
+}
+
+#introducao {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #1B263B;
+}
+
+#texto-intro {
+    padding: 30px;
+}
+
+#capa {
+    padding: 70px;
+}
+
+#capa img {
+    width: 700px;
+    height: auto;
+}
+
+.maior {
+    color: #00AEEF;
+    text-transform: uppercase;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+}
+
+#botoes-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#botoes-intro a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#meio {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    background-color: #0D1B2A;
+}
+
+#topicosmei {
+    background-color: #0D1B2A;
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.topicos {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.tituloTopico {
+    padding: 10px;
+    font-size: xx-large;
+    color: #FFFFFF;
+}
+
+#menor {
+    padding: 2px;
+    color: #00AEEF;
+}
+
+#tituloEsubtitulo {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #1B263B;
+}
+
+#tituloEsubtitulo a {
+    text-decoration: none;
+    color: #00AEEF;
+    font-weight: bold;
+}
+
+.baixo {
+    padding: 5px;
+}
+
+#fim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-color: #0A1128;
+    color: #8D99AE;
+    padding: 15px;
+}
